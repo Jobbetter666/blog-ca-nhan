@@ -1,0 +1,153 @@
+blog-ca-nhan/
+├── index.html
+├── about.html
+├── events.html
+├── styles/
+│   └── style.css
+└── images/
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Cá Nhân</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>Blog Cá Nhân Về Sách Kinh Điển</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="about.html">Giới thiệu</a></li>
+                <li><a href="events.html">Sự kiện</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Chào mừng đến với blog của tôi</h2>
+            <p>Khám phá những cuốn sách kinh điển và những câu nói hay nhất.</p>
+        </section>
+        <section>
+            <h2>Những cuốn sách hay</h2>
+            <img src="images/book1.jpg" alt="Cuốn sách hay">
+            <img src="images/book2.jpg" alt="Cuốn sách hay">
+        </section>
+        <section>
+            <h2>Những câu nói hay</h2>
+            <blockquote>"Câu nói hay 1."</blockquote>
+            <blockquote>"Câu nói hay 2."</blockquote>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Blog Cá Nhân</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới Thiệu</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>Giới Thiệu</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="about.html">Giới thiệu</a></li>
+                <li><a href="events.html">Sự kiện</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Về tôi</h2>
+            <p>Đây là blog cá nhân của tôi về những cuốn sách kinh điển và những câu nói hay.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Blog Cá Nhân</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sự Kiện</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>Sự Kiện</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="about.html">Giới thiệu</a></li>
+                <li><a href="events.html">Sự kiện</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Sự kiện sắp tới</h2>
+            <p>Thông tin về các sự kiện liên quan đến sách và câu nói hay sẽ được cập nhật tại đây.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Blog Cá Nhân</p>
+    </footer>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
